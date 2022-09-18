@@ -1,3 +1,4 @@
+# clusterfuck.py
 psec = 0.00
 pp = 0
 ksec = 0.00
@@ -47,5 +48,4 @@ for x in range(3):
 	print(f'PIROS {x+1}. {pidok[x]}s {pfekvok[x]}')
 
 for x in range(3):
-	print(f'KEK {x+1}. {kidok[x]}s {kfekvok[x]}')
-szeri
+	print(f'KEK {x+1}. {kidok[x]}s {kfekvok[x]}')
