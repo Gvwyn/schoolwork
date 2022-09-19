@@ -11,7 +11,3 @@ while sorszam < meret:
 		oszlopszam = oszlopszam + 1
 	oszlopszam = 0
 	print('')
-	
-	
-	
-	
