@@ -15,5 +15,3 @@ while sorszam < meret:
 	
 	
 	
-
-
