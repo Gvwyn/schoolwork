@@ -19,7 +19,7 @@ while sorszam < meret:
     print('.'*(karakterek-1), end='')
     print('x', end='')
 
-    if sorszam !=  kozep:
+    if sorszam != kozep:
         print('.'*(karakterekjobb-karakterek), end='')
         print('x', end='')
     print('.'*(karakterek-1), end='')
