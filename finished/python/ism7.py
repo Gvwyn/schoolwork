@@ -2,7 +2,7 @@
 meret = 5
 kozep = 3
 karakterek = 0
-karakterekjobb = 5
+karakterekjobb = meret
 sorszam = 0
 
 while sorszam < meret:
