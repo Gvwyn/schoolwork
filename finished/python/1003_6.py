@@ -1,10 +1,3 @@
-"""
-Írjon egy programot, ami kiíratja egy csütörtöki nappal kezdődő képzeletbeli év
-napjainak a listáját. A scriptben három lista lesz : az egyik a hét napjainak a
-neveit fogja tartalmazni, a másik a hónapok neveit, a harmadik pedig hogy hány
-naposak a hónapok (a szökőéveket nem vesszük figyelembe).
-"""
-
 het_napjai = ['hetfo', 'kedd', 'szerda', 'csutortok', 'pentek', 'szombat', 'vasarnap']
 honapok = ['januar', 'februar', 'marcius', 'aprilis', 'majus', 'junius', 'julius', 'augusztus',
     'szeptember', 'oktober', 'november', 'december']
