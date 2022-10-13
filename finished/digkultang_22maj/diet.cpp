@@ -28,7 +28,7 @@ int main() {
     }
 
     if(goal_reached == true) {
-        printf("Aunt Mary reached the set target first on Week %i\n", goal_reached_at+1);
+        printf("Aunt Mary reached the set target first on Week %i.\n", goal_reached_at+1);
         printf("Her weight increased %i times from one week to the next.", increases);
     }
 }
