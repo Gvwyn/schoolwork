@@ -17,8 +17,8 @@ int main() {
     printf("E betuk szama: %i\nD betuk szama: %i\nK betuk szama %i\nN betuk szama: %i\n", e, d, k, n);
     std::cout << "Egy legrovidebb ut parancsszava: ";
     
-    if(x >= 0) { std::cout << std::string(x, 'E'); }
-    if (x < 0) { std::cout << std::string(-x, 'D'); }
-    if(y >= 0) { std::cout << std::string(y, 'K'); }
-    if (y < 0) { std::cout << std::string(-y, 'N'); }
+    if(x >= 0) { std::cout << std::string(y, 'E'); }
+    if (x < 0) { std::cout << std::string(-y, 'D'); }
+    if(y >= 0) { std::cout << std::string(x, 'K'); }
+    if (y < 0) { std::cout << std::string(-x, 'N'); }
 }
