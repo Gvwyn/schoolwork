@@ -7,18 +7,18 @@ int main() {
 
     std::cout << "Kerem a robot parancsait: ";
     std::cin >> utasitas;
-    for(char betu : utasitas) {
-        if(betu == 'E') { e++; x++; }
-        if(betu == 'D') { d++; x--; }
-        if(betu == 'K') { k++; y++; }
-        if(betu == 'N') { n++; y--; } 
+    for (char betu : utasitas) {
+        if (betu == 'E') { e++; x++; }
+        if (betu == 'D') { d++; x--; }
+        if (betu == 'K') { k++; y++; }
+        if (betu == 'N') { n++; y--; } 
     }
     
     printf("E betuk szama: %i\nD betuk szama: %i\nK betuk szama %i\nN betuk szama: %i\n", e, d, k, n);
     std::cout << "Egy legrovidebb ut parancsszava: ";
     
-    if(x >= 0) { std::cout << std::string(y, 'E'); }
-    if (x < 0) { std::cout << std::string(-y, 'D'); }
-    if(y >= 0) { std::cout << std::string(x, 'K'); }
-    if (y < 0) { std::cout << std::string(-x, 'N'); }
+    if (y >= 0) { std::cout << std::string(y, 'E'); }
+    if (y < 0) { std::cout << std::string(-y, 'D'); }
+    if (x >= 0) { std::cout << std::string(x, 'K'); }
+    if (x < 0) { std::cout << std::string(-x, 'N'); }
 }
