@@ -17,29 +17,19 @@ while ok != 5:
     if valasz == 1:
         d = a+b
         c = int(input(f'{a}+{b} = '))
-        if c == d:
-            ok += 1
-            print('Helyes!')
-
-        else:
-            print('Hibas!')
 
     elif valasz == 2:
         d = a-b
         c = int(input(f'{a}-{b} = '))
-        if c == d:
-            ok += 1
-            print('Helyes!')
-        else:
-            print('Hibas!')
 
     elif valasz == 3:
         d = a*b
         c = int(input(f'{a}*{b} = '))
-        if c == d:
-            ok += 1
-            print('Helyes!')
-        else:
-            print('Hibas!')
 
+    if c == d:
+        ok += 1
+        print('Helyes!')
+    else:
+        print('Hibas!')
+    
 print(f'Gratulalunk!\nSikerult 5 helyes muveletet elvegezni {db} probalkozasbol.')

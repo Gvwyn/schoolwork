@@ -20,28 +20,22 @@ int main() {
                 d = a+b;
                 printf("%i+%i = ", a, b);
                 std::cin >> c;
-                if (c == d) {
-                    std::cout << "Helyes!" << std::endl;
-                    ok++; 
-                }; break;
+                break;
             case 2:
                 d = a-b;
                 printf("%i-%i = ", a, b);
                 std::cin >> c;
-                if (c == d) {
-                    std::cout << "Helyes!" << std::endl;
-                    ok++; 
-                }; break;
+                break;
             case 3:
                 d = a*b;
                 printf("%i*%i = ", a, b);
                 std::cin >> c;
-                if (c == d) {
-                    std::cout << "Helyes!" << std::endl;
-                    ok++; 
-                }; break;
-        if (c != d) { std::cout << "Helytelen!" << std::endl; }
+                break;
         }
+        if (c == d) {
+            std::cout << "Helyes!" << std::endl;
+            ok++;
+        } else { std::cout << "Helytelen!" << std::endl; }
     }
     printf("Gratulalunk!\nSikerult 5 helyes muveletet elvegezni %i probalkozasbol.", db);
 }
