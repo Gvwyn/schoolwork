@@ -108,3 +108,4 @@ int main() {
             utcak.push_back(telkek_adatai[sor][1]);
         }
     }
+}
