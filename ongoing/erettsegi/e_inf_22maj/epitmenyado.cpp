@@ -104,7 +104,7 @@ int main() {
     std::vector<std::string> zonak;
 
     for (int sor = 1; sor < telkek_szama; sor++) {
+        if (std::find(utcak.begin(), utcak.end(), telkek_adatai[sor][1]) == utcak.end()) {
+            utcak.push_back(telkek_adatai[sor][1]);
         }
     }
-
-}
