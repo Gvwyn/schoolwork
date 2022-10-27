@@ -94,8 +94,6 @@ int main() {
     }
     if (tulaj_letezik == false) { std::cout << "Nem szerepel az adatallomanyban." << std::endl; }
 
-
-
     printf("5. feladat\nA savba %i telek esik, az ado %i Ft", a, a_fizetendo);
     printf("\nB savba %i telek esik, az ado %i Ft", b, b_fizetendo);
     printf("\nC savba %i telek esik, az ado %i Ft", c, c_fizetendo);
