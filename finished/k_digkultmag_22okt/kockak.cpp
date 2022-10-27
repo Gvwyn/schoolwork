@@ -16,8 +16,8 @@ int main() {
             eredmeny += dobas;
             if (y < 2) { std::cout << dobas << " + "; }
             else { std::cout << dobas; }
-
         }
+
         std::cout << " = " << eredmeny;
         if (eredmeny < 10) { anni++; std::cout << " Nyert: Anni"; }
         else { panni++; std::cout << " Nyert: Panni"; }
