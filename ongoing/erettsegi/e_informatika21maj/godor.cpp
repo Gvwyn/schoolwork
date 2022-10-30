@@ -59,10 +59,9 @@ int main() {
     godorfajl.close();
     printf("5. feladat\nA godrok szama %i\n\n", godrok_szama);
 
-    printf("6. feladat\n");
-
     int hanyadik = 0;
-    if (feladat2_godorbe_talal) {
+    if (!feladat2_godorbe_talal) {
+        printf("6. feladat\n");
         // a)
         for (int x = 0; x < godrok_helyei.size(); x+2) {
             if(hanyadik == hanyadik_godorben) {
