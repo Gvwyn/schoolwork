@@ -1,0 +1,39 @@
+html, body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:any-link {
+    color: #336600;
+}
+
+.cim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noveny {
+    float: right;
+    margin: 0 auto 0 auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.fejlec {
+    font-style: italic;
+}
+
+h2, h3 {
+    color: #22B14C;
+}
+
+table {
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
