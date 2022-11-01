@@ -32,7 +32,7 @@ int main() {
     printf("5. feladat\nBotond %i alkalommal dobott paros szamot.\n", paros);
 
 
-    for (int x = 1; x < dobasok.size()-1; x++) {
+    for (int x = 0; x < dobasok.size()-1; x++) {
         if (dobasok[x] < dobasok[x+1]) {
             feladat6++;
         }
