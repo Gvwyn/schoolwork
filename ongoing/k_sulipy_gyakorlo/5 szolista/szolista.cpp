@@ -54,7 +54,6 @@ int main() {
     std::cout << leghosszabb_szo[leghosszabb_szo.length()-1];
 
     std::string a_szo = szavak[rand() % (szavak.size()-1) + 0];
-
     for(int x = 0; x < 100; x++) {
         std::swap(a_szo[rand() % (a_szo.length()-1) + 0], a_szo[rand() % (a_szo.length()-1) + 0]);
     }
