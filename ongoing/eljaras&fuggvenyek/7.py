@@ -1,6 +1,6 @@
 import random
 
-def kulonbsegekszama(a, b):
+def kulonbseg(a, b):
     l = []
     for x in a:
         for y in b:
@@ -16,4 +16,4 @@ for x in range(3):
     lista.append(random.randint(0, 5))
     lista2.append(random.randint(0, 5))
 
-print(lista, lista2, kulonbsegekszama(lista, lista2), sep="\n")
+print(lista, lista2, kulonbseg(lista, lista2), sep="\n")
