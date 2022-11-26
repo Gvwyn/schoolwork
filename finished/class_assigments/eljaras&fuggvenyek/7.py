@@ -1,19 +1,19 @@
 import random
 
 def kulonbseg(a, b):
-    ertek = 0
+    l = []
     for x in a:
         for y in b:
             if x not in b and x not in l:
-                ertek += 1
+                l.append(x)
             if y not in a and y not in l:
-                ertek += 1
-    return ertek
+                l.append(y)
+    return len(l)
 
 lista = []
 lista2 = []
 for x in range(3):
-    lista.append(random.randint(0, 10))
-    lista2.append(random.randint(0, 10))
+    lista.append(random.randint(0, 5))
+    lista2.append(random.randint(0, 5))
 
 print(lista, lista2, kulonbseg(lista, lista2), sep="\n")
