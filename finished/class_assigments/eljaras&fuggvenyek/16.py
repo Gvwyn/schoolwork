@@ -1,8 +1,7 @@
 def megoldas(a, b, c):
     if a >= 0 and b >= 0 and c >= 0:
         return True
-    else:
-        return False
+    return False
 
 szam = int(input("elso szam: "))
 szam2 = int(input("masodik szam: "))

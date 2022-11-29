@@ -1,13 +1,14 @@
+import random
 def megoldas(a, b):
     if sum(a) >= sum(b):
         return sum(a)
     elif sum(b) > sum(a):
         return sum(b)
 
-tomb1 = []
-tomb2 = []
+lista = []
+lista2 = []
 for i in range(3):
-    tomb1.append(int(input(f"TOMB-1, {i+1}. szam: ")))
-    tomb2.append(int(input(f"TOMB-2, {i+1}. szam: ")))
+    lista.append(random.randint(0, 5))
+    lista2.append(random.randint(0, 5))
 
-print(megoldas(tomb1, tomb2))
+print(megoldas(lista, lista2))
