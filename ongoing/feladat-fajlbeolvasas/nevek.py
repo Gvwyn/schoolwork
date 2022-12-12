@@ -1,5 +1,5 @@
 with open("files/nevek.txt", "r", encoding="utf-8") as beolvfajl:
-    fajl = [line.strip().split(" ") for line in beolvfajl] # huh
+    fajl = [line.strip().split(" ") for sor in beolvfajl] # huh
 
 legh_veznev = "" # 1.
 ketvz = [] # 2.
@@ -30,7 +30,7 @@ for x in range(len(fajl)):
 
     # 5.
     jel_veznev = fajl[x][-1]
-    if sum(x.count(jel_veznev) for x in fajl):
+    if sum(nev.count(jel_veznev) for nev in fajl):
         veznevism = True
 
 print(f"1. {legh_veznev}\n2. {ketvz}\n3.{legh_nev}\n4.{legt_a}\n5. {veznevism}")
